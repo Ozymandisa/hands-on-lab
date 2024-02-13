@@ -17,6 +17,7 @@ jupiter_mult = 2.360
 saturn_mult = 1.081
 uranus_mult = 0.82
 neptune_mult = 1.140
+pluto_mult = 0.067
 
 def main():
     # First, we store the input weight in a variable 'x'
@@ -39,6 +40,8 @@ def main():
         m = float(uranus_mult)
     elif p=="Neptune":
         m = float(neptune_mult)
+    elif p=="Pluto":
+        m = float(pluto_mult)
     # If there is no match, we get an error statement
     else: 
         print("That is not a valid planet.")
